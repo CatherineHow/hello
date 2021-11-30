@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="CatherineHowXinYuen">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>My First Bootstrap Page</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/Lecture.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="row bg-dark">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <li class="card-item dropdown">
+                        <a class="card-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About Me<i class="fas fa-minus-square"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <h3>My Name is Little Monster<i class="fas fa-pastafarianism"></i></h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <div class="card-body">
+                        <div class="card-footer">My Hobbies<i class="fas fa-plus-square"></i></div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="card-footer">Contact Me<i class="fas fa-plus-square"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h1>WELCOME!</h1>
+                <P>little Monsters is a British animated children's cartoon that ran from 1998 on CBC. The show was based on the books of the same name by Tony Garth, focusing on eccentric and mischievous children.</P>
+            </div>
+        </div>
+        <div class="row justify-content-center" style="height: 350px">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/menu/burger/argentine-chimichanga-burger.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p>Card 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/menu/burger/bulgogi-burger.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p>Card 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/menu/burger/insanity-burger.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p>Card 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="row justify-content-center">
+            <div class="col bg-dark text-white text-center">
+                <p>&copy;Little Monster Inc</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
